@@ -1,0 +1,1 @@
+This is my repo for my rythm music script using tkinter and pygame
