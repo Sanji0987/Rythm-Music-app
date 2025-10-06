@@ -91,7 +91,8 @@ mixer.init()  # starting pygame mixer
 
 # designing the window
 root.title("Rythm")
-root.iconbitmap(r'music.ico')
+icon_image = PhotoImage(file='music.png')
+root.iconphoto(False, icon_image)
 
 filetext = ttk.Label(topframe, text="")
 filetext.pack()
